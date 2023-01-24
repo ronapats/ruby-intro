@@ -12,6 +12,19 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+rons_list = ["milk","eggs","bacons"]
+kans_list = ["beer", "cookies", "apples", "milk"]
+combined_list = rons_list + kans_list
+# puts "-combined_list-"
+# puts combined_list
+sorted_list = combined_list.sort
+# puts "-sorted_list-"
+# puts sorted_list
+deduplicated_list = sorted_list.uniq
+# puts "-deduplicated_list-"
+# puts deduplicated_list
+#can use this deduped_sorted_list = combined_list.sort.uniq
+puts "Buy #{deduplicated_list[0]}, #{deduplicated_list[1]}, #{deduplicated_list[2]}, #{deduplicated_list[3]}, #{deduplicated_list[4]}, #{deduplicated_list[5]}"
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
