@@ -49,5 +49,4 @@ elsif currency == "EUR"
     puts "Your Bitcoin is worth EUR#{value}."
 else 
     puts "N/A, type currency again in USD/GBP/EUR"
-    currency = gets.chomp
 end
